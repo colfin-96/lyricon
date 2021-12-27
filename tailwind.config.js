@@ -1,7 +1,10 @@
 module.exports = {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+    content: ["./src/**/*.{html,js}"],
+    theme: {
+        fontFamily: {
+            'sans': ['"Open Sans"']
+        },
+        extend: {},
+    },
+    plugins: [],
 }
